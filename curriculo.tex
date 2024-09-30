@@ -1,0 +1,195 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Huge \scshape Paula Caires Silva} \\ \vspace{1pt}
+    \small +55(11)96852-0023 $|$ \href{mailto:mjpaulas@gmail.com}{\underline{mjpaulas@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/paulasilva12}{\underline{linkedin.com/in/paulasilva12}} 
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Educação}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universidade Federal de São Carlos}{Março 2020 - Dezembro 2026 (expectativa)}
+      {Bacharelado em Ciência da Computação}{Sorocaba, SP}
+          \resumeItemListStart
+            \resumeItem{\textbf{Cursos relevantes}{: Estrutura de Dados, Algoritmos, Programação Orientada à Objetos, Matemática Discreta, Redes de Computadores, Banco de Dados, Inteligência Artificial, Engenharia de Software, Organização e Recuperação da Informação, Compiladores.} \\}
+            \resumeItem{\textbf{Habilidades técnicas}{: Fluente em C, SQL, experiência com Python, Java, NoSQL, Linux, AutoCAD, Git} \\}
+            
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experiências}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Membro de comercial e desenvolvedora web}{Abril 2022 – Dezembro 2024}
+      {Beets Jr.}{Sorocaba, SP}
+      \resumeItemListStart
+        \resumeItem{Trabalhei na reestruturação da área de Comercial da empresa, incluindo prospecção, atendimento a clientes, negociação e pós-venda}
+
+        \resumeItem{Desenvolvi com minha equipe três sites institucionais para empresas, desde protótipo até o desenvolvimento, proporcionando maior visibilidade e credibilidade para essas}
+        
+        \resumeItem{\textbf{Habilidades de desenvolvimento web}{: HTML e CSS (avançado), JavaScript (intermediário), Figma (intermediário), Wordpress, Git, Framework Scrum } \\}
+        
+        \resumeItem{\textbf{Habilidades de comercial}{: Técnica de vendas, Prospeção de Clientes, Elaboração e Manutenção do Funil de Vendas, Reunião com Leads, Definição do ICP } \\}
+        
+      \resumeItemListEnd
+    
+    \resumeSubHeadingListEnd
+
+%-----------COMMUNITY AND LEADERSHIP-----------
+\section{Liderança}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Vice Presidente}{Novembro 2022 – Novembro 2024}
+      {Centro Acadêmico de Ciência da Computação de Sorocaba (CACCS)}{Sorocaba, SP}
+      \resumeItemListStart
+        \resumeItem{Representei os discentes do curso, atendendo demandas, mediando relações entre alunos e professores e promovendo um ambiente colaborativo.}
+
+        \resumeItem{\textbf{Habilidades }{: Comunicação, Resolução de Conflitos, Liderança, Negociação, Trabalho em Equipe} \\}
+      \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projetos}
+
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Projeto TV Box} $|$ \emph{Linux, Armibian, manutenção de computadores}}{Fevereiro 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{O projeto TV Box tem como objetivo descaracterizar receptores de sinal de TV pirata ("gatonet") apreendidos pela Receita Federal transformando-os em aparelhos legalizados com finalidade social}
+            \resumeItem{Participei do desenvolvimento e instalação de um ambiente Linux em equipamentos que foram destinados à estudantes de escolas públicas}
+            \resumeItem{
+            Repositório do projeto disponível no \href{https://github.com/lizier/projeto-tvbox}{\underline{GitHub}}}
+            
+          \resumeItemListEnd        
+
+    \resumeSubHeadingListEnd
+
+%-----------IDIOMAS-----------
+
+\section{Idiomas}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Português}{: Nativo} \\
+    \textbf{Inglês}{: Básico com habilidades de leitura, escrita, compreensão auditiva. Atualmente, estou focado em desenvolver minhas habilidades de conversação e pronúncia } \\
+
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+%
+\end{document}
